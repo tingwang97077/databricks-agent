@@ -1,0 +1,187 @@
+# ============ SENSITIVE DATA ============
+# Environment variables with credentials
+.env
+.env.local
+.env.*.local
+*.env
+
+# Database credentials and connection strings
+config.local.py
+secrets.py
+credentials.json
+credentials.yaml
+config.py
+
+# API keys and tokens
+*.key
+*.pem
+*.cert
+token.txt
+api_keys.txt
+
+# ============ PYTHON ============
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PIPFILE.lock
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# ============ UV ============
+# uv lock file (optional - commit if you want reproducible builds)
+# uv.lock
+
+# uv cache
+.uv/
+
+# ============ STREAMLIT ============
+# Streamlit cache
+.streamlit/
+
+# ============ DATABRICKS ============
+# Databricks notebooks checkpoints
+.ipynb_checkpoints/
+
+# Databricks CLI config (may contain tokens)
+.databrickscfg
+
+# ============ IDEs ============
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Jupyter Notebook
+*.ipynb_checkpoints
+
+# Spyder
+.spyderproject
+.spyproject
+
+# ============ OS FILES ============
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ============ LOGS & DATABASES ============
+# Log files
+*.log
+logs/
+*.log.*
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# ============ DATA FILES ============
+# CSV, Excel, and data dumps (add if you don't want to commit data)
+# *.csv
+# *.xlsx
+# *.xls
+# data/
+# dumps/
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*~
+
+# ============ TEMPORARY FILES ============
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# ============ BUILD & DEPLOYMENT ============
+# Compiled files
+*.pyc
+*.pyo
+
+# Package files
+*.tar.gz
+*.zip
+*.whl
+
+# ============ CUSTOM ============
+# Add your custom ignores below
+# local_config.py
+# test_data/
